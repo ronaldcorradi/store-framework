@@ -15,8 +15,17 @@
     "header-layout.desktop": {
       "children": [
         "header-row#notification",
-        "header-row#main"
+        "header-row#main",
+        "header-row#menu"
       ]
+    },
+
+    "header-row#menu": {
+        "children": [
+          "header-spacer",
+          "vtex.menu@2.x:menu#categories",
+          "header-spacer"
+        ]
     },
   
     "header-layout.mobile": {
@@ -49,6 +58,7 @@
     },
     "header-row#main-mobile": {
         "children": [
+          "drawner",
           "logo",
           "header-spacer",
           "minicart",
