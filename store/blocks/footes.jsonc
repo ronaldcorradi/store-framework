@@ -40,7 +40,7 @@
                 { "url": "https://twitter.com/foo", "name": "Twitter" },
                 { "url": "https://https://www.instagram.com/" ,"name":"Instagram"}
               ],
-              "showInColor":true
+              "showInColor":tru
           }
       }
   }
